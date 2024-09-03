@@ -18,12 +18,12 @@ const MessageInput = () => {
 			<div className='w-full relative'>
 				<input
 					type='text'
-					className='border text-sm rounded-lg block w-full p-2.5  bg-gray-700 border-gray-600 text-white'
+					className='border text-lg rounded-lg block w-full p-2.5 bg-transparent border-white text-white'
 					placeholder='Send a message'
 					value={message}
 					onChange={(e) => setMessage(e.target.value)}
 				/>
-				<button type='submit' className='absolute inset-y-0 end-0 flex items-center pe-3'>
+				<button type='submit' className='text-2xl text-white hover:text-red-500 absolute inset-y-0 end-0 flex items-center pe-3'>
 					{loading ? <div className='loading loading-spinner'></div> : <BsSend />}
 				</button>
 			</div>
