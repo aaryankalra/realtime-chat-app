@@ -1,7 +1,7 @@
 ## Contributors
-Aaryan Pratap Kalra 2210990015  
-Aaditya Sharma 2210990005  
-Aaditya Bhalla 2210990004  
+Aaryan Pratap Kalra (2210990015)  
+Aaditya Sharma      (2210990005)  
+Aaditya Bhalla      (2210990004)   
 
 ### npm install in the root folder
 ```
